@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background: black;
+    background-size: cover;
+    font-family: "Arial Black";
+    color: aqua;
+}
+
+header{
+    height: 30px;
+    padding: 60px;
+    text-align: left;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    top: 1px;
+}
+
+menu{
+    top: 10px;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
