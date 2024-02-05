@@ -80,3 +80,15 @@ a:active{color:white; text-decoration: none;}
         display: inline-block; 
     }
 }
+
+footer{
+    padding: 1px;
+    background: #730f0f;
+    display: block;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
