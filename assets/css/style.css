@@ -1,14 +1,39 @@
 @charset "UTF-8";
 
-/*@font-face {
-    font-family: Nexa-ExtraLight;
-    src: url("/assets/fonts/Nexa-ExtraLight.ttf");
+@font-face {
+    font-family: Vilane Bold;
+    src: url("/assets/fonts/Vilane Bold.ttf");
 }
 
 @font-face {
-    font-family: Nexa-Heavy;
-    src: url("/assets/fonts/Nexa-Heavy.ttf");
-}*/
+    font-family: Vilane Extra Light;
+    src: url("/assets/fonts/Vilane Extra Light.ttf");
+}
+
+@font-face {
+    font-family: Vilane Light;
+    src: url("/assets/fonts/Vilane Light.ttf");
+}
+
+@font-face {
+    font-family: Vilane Medium;
+    src: url("/assets/fonts/Vilane Medium.ttf");
+}
+
+@font-face {
+    font-family: Vilane Regular;
+    src: url("/assets/fonts/Vilane Regular.ttf");
+}
+
+@font-face {
+    font-family: Vilane Semi Bold;
+    src: url("/assets/fonts/Vilane Semi Bold.ttf");
+}
+
+@font-face {
+    font-family: Vilane Thin;
+    src: url("/assets/fonts/Vilane Thin.ttf");
+}
 
 body{
     background:white;
