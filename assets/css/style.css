@@ -153,6 +153,7 @@ footer {
     left: 800px;
 }
 
+
 .title{
     text-align:center;
     margin-left: 620px;
@@ -241,6 +242,11 @@ footer ul{
     position: relative;
     width: 1425px ;
     height:300px;
+}
+
+.social-links a{
+    font-size: 30px;
+    color: white;
 }
 
 
