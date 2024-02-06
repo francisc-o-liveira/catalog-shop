@@ -93,7 +93,7 @@ footer {
     position: absolute;
     display: block;
     left: 70px;
-    top: 10px;
+    top: 5px;
     text-align: left;
     border: 1px solid #e27d2b;
     width: 500px;
@@ -105,11 +105,10 @@ footer {
     border: 1px solid #e27d2b;
     display: block;
     left: 800px;
-
     text-align: center;
     width: 400px;
     height: 200px;
-    top: 10px;
+    top: 5px;
 }
 
 .list-contactos{
@@ -119,7 +118,7 @@ footer {
     width: 500px;
     height: 200px;
     left: 70px;
-    top: 230px;
+    top: 250px;
 }
 
 .social-links{
@@ -190,5 +189,36 @@ footer ul{
     left: 125px;
 }
 
+.rubrica{
+    font-family: "Calibri Light", sans-serif ;
+    font-size: 12px;
+
+}
+
+.title-img{
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #0034d5;
+}
+
+.p-img{
+    position: absolute;
+    top: 105px;
+    right: 20px;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #0034d5;
+
+}
+
+#cabecalho-img{
+    display: inline-block;
+    position: relative;
+    width: 1425px ;
+    height:300px;
+}
 
 
