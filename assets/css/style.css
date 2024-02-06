@@ -3,8 +3,8 @@
 body{
     background: black;
     background-size: cover;
-    font-family: "Arial Black";
-    color: aqua;
+    font-family: "Arial Black", sans-serif;
+    color: #ffffff;
 }
  
 head{
@@ -85,51 +85,51 @@ footer {
     background: #730f0f;
     display: block;
     color: white;
-    margin:0;
+    height: 450px;
+    bottom: -20px
 }
 
 .about-us{
-    position: relative;
+    position: absolute;
     display: block;
     left: 70px;
-    top: 250px;
+    top: 10px;
     text-align: left;
-    border: 1px solid blue;
+    border: 1px solid #e27d2b;
     width: 500px;
     height: 200px;
 }
 
 .list-footer-terms{
-    position: relative;
-    border: 1px solid blue;
+    position: absolute;
+    border: 1px solid #e27d2b;
     display: block;
     left: 800px;
 
     text-align: center;
     width: 400px;
     height: 200px;
-    bottom: 160px;
+    top: 10px;
 }
 
 .list-contactos{
-    position: relative;
-    border: 1px solid blueviolet;
+    position: absolute;
+    border: 1px solid #e27d2b;
     display: block;
     width: 500px;
     height: 200px;
     left: 70px;
-    bottom: -300px;
+    top: 230px;
 }
 
 .social-links{
-    position: relative;
-    border: 1px solid darkblue;
+    position: absolute;
+    border: 1px solid #e27d2b;
     display: block;
     width: 400px;
     height: 200px;
-    bottom: 110px;
+    top: 230px;
     left: 800px;
-
 }
 
 
