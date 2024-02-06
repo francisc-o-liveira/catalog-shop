@@ -131,6 +131,9 @@ footer {
     top: 230px;
     left: 800px;
 }
+.social-links a{
+
+}
 
 
 footer h2{
@@ -162,6 +165,7 @@ footer ul{
     height: 100px;
     left: 550px;
 }
+
 .title-new-products{
     font-family: "Arial Black",sans-serif;
     font-size: 30px;
