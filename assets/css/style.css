@@ -147,11 +147,20 @@ footer {
 .social-links{
     position: absolute;
     border: 1px solid #e27d2b;
-    display: block;
     width: 400px;
     height: 200px;
     top: 230px;
     left: 800px;
+    margin: 5px 0 0 68px;
+    display: flex;
+}
+.social-links a{
+    font-size: 30px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    margin-right: 12px;
+    transition: 0.3s;
 }
 
 .title{
@@ -182,6 +191,34 @@ footer ul{
     font-size: 16px;
     font-family: "Arial", sans-serif;
     list-style: none;
+}
+
+.new-products {
+    position: relative;
+    display: block;
+    text-align: center;
+    border: 1px solid seagreen;
+    width: 400px;
+    height: 100px;
+    left: 550px;
+}
+
+.title-new-products{
+    font-family: "Arial Black",sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #462c2c;
+}
+
+.sub-title-new-products{
+    font-family: "Arial Black", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #e27d2b;
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 125px;
 }
 
 
