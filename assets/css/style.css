@@ -172,8 +172,8 @@ footer {
     position: absolute;
     border: 1px solid #e27d2b;
     display: block;
-    width: 400px;
-    height: 200px;
+    width: 135px;
+    height: 35px;
     top: 230px;
     left: 800px;
 }
@@ -272,6 +272,18 @@ footer ul{
 .social-links a{
     font-size: 30px;
     color: white;
+}
+
+.terms-title{
+    margin-right: 900px ;
+}
+
+.terms-cont{
+    border: white solid 1px;
+    position: absolute;
+    right: 150px;
+    width: 300px;
+    top: 20px;
 }
 
 
