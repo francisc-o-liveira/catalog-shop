@@ -338,11 +338,6 @@ footer ul{
 }
 
 .cart{
-    padding: 10px 10px;
-    width: 10px;
-    height: 10px;
-    border-radius: 100% ;
-    background: #0267ff;
     position: absolute;
     font-size: 30px;
     right: -150px;
