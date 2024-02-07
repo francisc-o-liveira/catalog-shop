@@ -228,28 +228,34 @@ footer ul{
     position: relative;
     display: block;
     text-align: center;
-    border: 1px solid seagreen;
     width: 400px;
     height: 100px;
     left: 550px;
 }
 
 .title-new-products{
-    font-family: "Arial Black",sans-serif;
-    font-size: 30px;
+    font-family: "Anton",sans-serif;
+    font-size: 50px;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
+    opacity: 1;
+    text-shadow: 0px 0px 2px #000000;
+    position: absolute;
+    top: -40px;
+    left: 50px;
+
+
 }
 
 .sub-title-new-products{
-    font-family: "Arial Black", sans-serif;
-    font-size: 20px;
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
     font-weight: normal;
     color: #000000;
     position: absolute;
     display: block;
-    top: 30px;
-    left: 125px;
+    top: 10px;
+    left: 110px;
 }
 
 .rubrica{
