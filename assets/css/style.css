@@ -133,7 +133,7 @@ a:active{color:black; text-decoration: none;}
 footer {
     position: relative;
     padding: 1px;
-    background: #730f0f;
+    background: #fc8318;
     display: block;
     color: white;
     height: 450px;
@@ -228,14 +228,14 @@ footer ul{
     font-family: "Arial Black",sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: #462c2c;
+    color: #000000;
 }
 
 .sub-title-new-products{
     font-family: "Arial Black", sans-serif;
     font-size: 20px;
     font-weight: normal;
-    color: #e27d2b;
+    color: #000000;
     position: absolute;
     display: block;
     top: 30px;
@@ -310,17 +310,14 @@ footer ul{
 }
 
 .cart{
-    padding: 10px 10px;
-    border-radius: 100% ;
-    background: #0267ff;
     position: absolute;
-    font-size: 20px;
-    right: -100px;
-    top: -20px;
+    font-size: 30px;
+    right: -150px;
+    top: -10px;
 }
 
 .cart:hover{
-    color: white;
+    color: #fc8318;
 }
 
 
