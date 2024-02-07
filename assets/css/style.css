@@ -291,11 +291,22 @@ footer ul{
     top: 20px;
 }
 
+/*total para as content: 1370px*/
 .content1{
     border: 2px solid black;
-    width: 1370px;
-    height: 150px;
+    width: 335px;
+    height: 450px;
     margin-left: 50px;
+    margin-bottom: 1px;
+}
+
+.content2{
+    border: 2px solid blue;
+    width: 335px;
+    height: 450px;
+    position: absolute;
+    top: 540px;
+    left: 395px;
 }
 
 .cart{
