@@ -357,21 +357,6 @@ footer ul{
     left: 150px;
 }
 
-.img-product2{
-    width: 280px;
-    height: 250px;
-    position: absolute;
-    top: 551px;
-    left: 69px;
-}
-
-.product2-new{
-    position:absolute;
-    background: aquamarine;
-    top: 800px;
-    left: 150px;
-}
-
 .cart{
     position: absolute;
     font-size: 30px;
