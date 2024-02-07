@@ -2,38 +2,39 @@
 
 @font-face {
     font-family: Vilane Bold;
-    src: url("/assets/fonts/Vilane Bold.ttf");
+    src: url("/assets/font/Vilane Bold.ttf");
 }
 
 @font-face {
     font-family: Vilane Extra Light;
-    src: url("/assets/fonts/Vilane Extra Light.ttf");
+    src: url("/assets/font/Vilane Extra Light.ttf");
 }
 
 @font-face {
     font-family: Vilane Light;
-    src: url("/assets/fonts/Vilane Light.ttf");
+    src: url("/assets/font/Vilane Light.ttf");
 }
 
 @font-face {
     font-family: Vilane Medium;
-    src: url("/assets/fonts/Vilane Medium.ttf");
+    src: url("/assets/font/Vilane Medium.ttf");
 }
 
 @font-face {
     font-family: Vilane Regular;
-    src: url("/assets/fonts/Vilane Regular.ttf");
+    src: url("/assets/font/Vilane Regular.ttf");
 }
 
 @font-face {
     font-family: Vilane Semi Bold;
-    src: url("/assets/fonts/Vilane Semi Bold.ttf");
+    src: url("/assets/font/Vilane Semi Bold.ttf");
 }
 
 @font-face {
     font-family: Vilane Thin;
-    src: url("/assets/fonts/Vilane Thin.ttf");
+    src: url("/assets/font/Vilane Thin.ttf");
 }
+
 
 body{
     background:white;
@@ -45,6 +46,7 @@ body{
 .politics{
     padding: 20px;
     text-align: justify-all;
+    font-family: "Vilane Bold", Arial;
 }
 
 head{
@@ -59,7 +61,7 @@ head{
 }
 
 .menu{
-    width:70%;
+    width:10%;
     height: 100px;
     font-family:Arial, Helvetica, sans-serif;
     bottom: 1000px;
@@ -74,10 +76,12 @@ head{
 }
 
 .header-list{
-    width: 1000px;
+    width: 900px;
     bottom: 2000px;
     margin-left: 370px;
-    font-family:"Nexa-Heavy", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 40px;
+    font-family:"Vilane Bold", Arial, Helvetica, sans-serif;
 }
 
 .links{
@@ -87,7 +91,7 @@ head{
 .logo{
     margin-left: 50px;
     position:relative;
-    top: 30px;
+    top: 7px;
     width: 100px;
     height: 100px;
 }
@@ -133,7 +137,8 @@ footer {
     display: block;
     color: white;
     height: 450px;
-    bottom: -20px
+    bottom: -20px;
+    font-family: "Vilane Regular";
 }
 
 .about-us{
@@ -265,7 +270,7 @@ footer ul{
 #cabecalho-img{
     display: inline-block;
     position: relative;
-    width: 1425px ;
+    width: 1390px ;
     height:300px;
 }
 
@@ -284,6 +289,13 @@ footer ul{
     right: 150px;
     width: 300px;
     top: 20px;
+}
+
+.content1{
+    border: 2px solid black;
+    width: 1370px;
+    height: 150px;
+    margin-left: 50px;
 }
 
 
