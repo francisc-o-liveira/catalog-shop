@@ -337,6 +337,14 @@ footer ul{
     left: 1120px;
 }
 
+.img-product{
+    width: 280px;
+    height: 250px;
+    position: absolute;
+    top: 551px;
+    left: 69px;
+}
+
 .cart{
     padding: 10px 10px;
     width: 10px;
