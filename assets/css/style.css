@@ -298,4 +298,18 @@ footer ul{
     margin-left: 50px;
 }
 
+.cart{
+    padding: 10px 10px;
+    border-radius: 100% ;
+    background: #0267ff;
+    position: absolute;
+    font-size: 20px;
+    right: -100px;
+    top: -20px;
+}
+
+.cart:hover{
+    color: white;
+}
+
 
