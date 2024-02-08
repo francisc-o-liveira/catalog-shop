@@ -36,6 +36,28 @@
     display: inline-block;
     border-radius: 100%;
 }
+.link_1{
+    color: #fff!important;
+    padding: 10px 20px;
+    background: #000000;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: 365px;
+}
+
+.link_1:hover{
+    background: #e27d2b;
+    color: white;
+    transition: 0.6s;
+}
+.link_404:hover{
+    background: #e27d2b;
+    color: white;
+    transition: 0.6s;
+}
 
 .contant_box_404{
     margin-top:-50px;
