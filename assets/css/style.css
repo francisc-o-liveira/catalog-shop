@@ -357,6 +357,36 @@ footer ul{
     position:absolute;
     top: 800px;
     left: 150px;
+    font-family: "Vilane Regular";
+}
+
+.price1-new{
+    position:absolute;
+    top: 840px;
+    left: 180px;
+    font-family: "Vilane Regular";
+}
+
+.img-product2{
+    width:280px;
+    height:250px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.product2-new{
+    position: absolute;
+    top: 255px;
+    left: 95px;
+    font-family: "Vilane Regular";
+}
+
+.price2-new{
+    position:absolute;
+    top: 840px;
+    left: 200px;
+    font-family: "Vilane Regular";
 }
 
 .cart{
