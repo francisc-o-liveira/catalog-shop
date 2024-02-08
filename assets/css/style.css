@@ -78,13 +78,6 @@ head{
     background: #ffffff;
 }
 
-.separation-line{
-    width:70%;
-    height:1px;
-    border-bottom: 1px solid #717070;
-    margin-left: 250px;
-}
-
 .header-list{
     width: 900px;
     bottom: 2000px;
@@ -145,10 +138,40 @@ footer {
     padding: 1px;
     background: #fc8318;
     display: block;
-    color: white;
-    height: 450px;
+    color: black;
+    height: 500px;
     bottom: -20px;
     font-family: "Vilane Regular";
+}
+
+.separation-line{
+    width:91%;
+    height:1px;
+    border-bottom: 1px solid #717070;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+footer h2{
+    font-size: 16px;
+    font-family: "Vilane Bold" , sans-serif;
+}
+
+footer h4{
+    font-size: 13px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+footer ul{
+    font-size: 13px;
+    font-family: "Vilane Regular", sans-serif;
+    list-style: none;
+    text-align:left;
 }
 
 .about-us{
@@ -158,42 +181,84 @@ footer {
     top: 5px;
     text-align: left;
     border: 1px solid #e27d2b;
-    width: 500px;
-    height: 200px;
-}
-
-.list-footer-terms{
-    position: absolute;
-    border: 1px solid #e27d2b;
-    display: block;
-    left: 800px;
-    text-align: center;
-    width: 400px;
-    height: 200px;
-    top: 5px;
+    width: 700px;
+    height: 220px;
 }
 
 .list-contactos{
     position: absolute;
     border: 1px solid #e27d2b;
     display: block;
+    left: 880px;
+    text-align: left;
+    width: 400px;
+    height: 220px;
+    top: 5px;
+}
+
+.terms-title{
+    margin-right: 900px ;
+}
+
+.terms-cont{
+    border: white solid 1px;
+    position: absolute;
+    right: 240px;
+    width: 300px;
+    top: 25px;
+}
+
+.list-footer-terms{
+    position: absolute;
+    border: 1px solid #e27d2b;
+    display: block;
     width: 500px;
-    height: 200px;
+    height: 190px;
     left: 70px;
-    top: 250px;
+    top: 270px;
 }
 
 .social-links{
     position: absolute;
     border: 1px solid #e27d2b;
     display: block;
-    width: 135px;
-    height: 35px;
-    top: 230px;
-    left: 800px;
+    width: 400px;
+    height: 190px;
+    top: 270px;
+    left: 880px;
 }
 
+.logo-info-mb{
+    width: 200px;
+    height:60px;
+    margin-left:100px;
+}
 
+.logo-info-mb-way{
+    width: 118px;
+    height:55px;
+    margin-left: 60px;
+}
+
+.logo-info-skrill{
+    width: 150px;
+    height:51px;
+    margin-left: 75px;
+}
+
+.logo-info-revolut{
+    width: 135px;
+    height:90px;
+    margin-left: 60px;
+    position: absolute;
+    top:470px;
+}
+
+.logo-info-paypal{
+    width: 180px;
+    height:55px;
+    margin-left:250px;
+}
 .title{
     text-align:center;
     margin-left: 620px;
@@ -205,27 +270,6 @@ span{
 
 ul{
     color: rgb(68, 68, 68);
-}
-
-
-footer h2{
-    font-size: 16px;
-    font-family: "Arial" , sans-serif;
-}
-
-footer h4{
-    font-size: 13px;
-    font-family: "Calibri", sans-serif;
-}
-
-footer p{
-    font-size: 10px;
-}
-
-footer ul{
-    font-size: 16px;
-    font-family: "Arial", sans-serif;
-    list-style: none;
 }
 
 .new-products {
@@ -301,17 +345,6 @@ footer ul{
     color: white;
 }
 
-.terms-title{
-    margin-right: 900px ;
-}
-
-.terms-cont{
-    border: white solid 1px;
-    position: absolute;
-    right: 150px;
-    width: 300px;
-    top: 20px;
-}
 
 /*total para as content: 1370px*/
 .content1{
