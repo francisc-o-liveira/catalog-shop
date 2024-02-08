@@ -7,6 +7,7 @@
     position: relative;
     left: 250px;
     text-align: center;
+    top: 100px;
 }
 
 .title-about{
@@ -23,3 +24,39 @@
     width: 750px;
     left: 150px;
 }
+
+.logo-about{
+    position: absolute;
+    left: 700px ;
+    top: 60px;
+}
+
+#certifications{
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+
+#certifications h2{
+    font-family: "", sans-serif;
+    font-size: 30px;
+}
+
+#about-marcas{
+    position: relative;
+    text-align: center;
+    left: 30px;
+    font-family: "", sans-serif;
+    font-size: 25px;
+}
+
+.brand-1{
+    position: absolute;
+    left: 600px;
+}
+
+.brand-2{
+    position: absolute;
+    left: 780px;
+}
+
