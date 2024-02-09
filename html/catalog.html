@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="../assets/css/catalog.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="../assets/boxicons/css/boxicons.min.css">
     <link rel="stylesheet"
@@ -10,6 +11,25 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
+    <style>
+
+        .product img{
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+        #featured > div.row.mx-auto.container > nav > ul > li.page-item.active > a{
+            background-color: black;
+        }
+        #featured > div.row.mx-auto.container > nav > ul > li:nth-child(n):hover >a{
+            background-color: coral;
+            color: #fff;
+        }
+        .pagination a{
+            color: black;
+        }
+    </style>
     <title>Enigma Catalogo</title>
     <div class="menu">
         <img src="../assets/img/img/logo.png" alt="" class="logo">
@@ -36,8 +56,8 @@
 <section id="featured" class="mt-5 py-5">
     <div class="container  mt-5 py-5">
         <h2 class="font-weight-bold">Our Featured</h2>
-        <hr />
-        <p>Here you can check our new products with fair prices</p>
+        <hr/>
+        <p>Aqui voce pode verificar os nossos produtos</p>
     </div>
     <div onclick=" window.location.href='singlep.html';" class="row mx-auto container">
         <div class="product text-center col-lg-3 col-md-4 col-12">
