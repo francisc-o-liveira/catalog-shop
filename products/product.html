@@ -3,32 +3,104 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/boxicons.css">
+    <link rel="stylesheet" type="text/css" href="styleProduct.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/boxicons/css/boxicons.min.css">
     <link rel="icon" type="image/x-icon" href="/favicon.png">
-    <title>Enigma</title>
+    <title>Enigma Product</title>
+    <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .small-img-group{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .small-img-col{
+            flex-basis: 24%;
+            cursor: pointer;
+        }
+        .sproduct select{
+            display: block;
+            padding: 5px 10px;
+        }
+        .sproduct input{
+            width: 50px;
+            height: 38px;
+            padding-left: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        .sproduct input:focus{
+            outline: none;
+        }
+        #buy-btn{
+            background-color: #fb774b;
+            opacity: 1;
+            transition: 0.3s all;
+        }
+    </style>
     <div class="menu">
-        <img src="/whatsapp-logo-2022.svg" alt="" class="logo">
-        <img src="/whatsapp-logo-2022.svg" alt="" class="button">
+        <img src="/assets/img/img/logo.png" alt="" class="logo">
+        <img src="/assets/img/img/logo.png" alt="" class="button">
         <p class="list">
-            <a href="/index.html" target="menu">Home</a>
-            <a href="/html/catalog.html" target="menu">Produtos</a>
-            <a href="/html/about.html" target="menu">Sobre Nós</a>
-            <a href="/html/tracking.html" target="menu">Localizar Encomenda</a>
-            <a href="/html/info.html" target="menu">Encomendar/Informações</a>
+            <a href="../index.html" target="menu">Home</a>
+            <a href="../html/catalog.html" target="menu">Produtos</a>
+            <a href="../html/about.html" target="menu">Sobre Nós</a>
+            <a href="../html/404.html" target="_blank">Localizar Encomenda</a>
+            <a href="../html/info.html" target="menu">Encomendar/Informações</a>
+            <a href="../html/404.html" target="_blank"><i class="bx bx-cart"></i></a>
         </p>
         <p class="header-list">
-            <a href="/index.html" target="menu" class="links">Home</a>
-            <a href="/html/catalog.html" target="menu" class="links">Produtos</a>
-            <a href="/html/about.html" target="menu" class="links">Sobre Nós</a>
-            <a href="/html/tracking.html" target="menu" class="links">Localizar Encomenda</a>
-            <a href="/html/info.html" target="menu" class="links">Encomendar/Informações</a>
+            <a href="../index.html" target="menu" class="links">Home</a>
+            <a href="../html/catalog.html" target="menu" class="links">Produtos</a>
+            <a href="../html/about.html" target="menu" class="links">Sobre Nós</a>
+            <a href="../html/404.html" target="_blank" class="links">Localizar Encomenda</a>
+            <a href="../html/info.html" target="menu" class="links">Encomendar/Informações</a>
+            <a href="../html/404.html" target="_blank" class="cart"><i class="bx bx-cart"></i></a>
         </p>
     </div>
 </head>
+<!---Product--->
 <body>
+<section class="container sproduct my-5 py-5">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1" src="/images/1 (1).jpg" id="mainimg" alt="img">
 
+            <div class="small-img-group">
+                <div class="small-img-col"><img class="small-img" width="100%" src="/images/1 (1).jpg" alt=""></div>
+                <div class="small-img-col"><img class="small-img" width="100%" src="/images/1 (1).jpg" alt=""></div>
+                <div class="small-img-col"><img class="small-img" width="100%" src="/images/1 (1).jpg" alt=""></div>
+                <div class="small-img-col"><img class="small-img" width="100%" src="/images/4 (1).jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-12">
+            <h6>Home / T-shirt</h6>
+            <h3 class="py-4">Men's fashion T shirt</h3>
+            <h2>$139.00</h2>
+            <select class="my-3">
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>small</option>
+                <option>large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="buttons" id="buy-btn">Add To Cart</button>
+            <h4 class="my-5">Product Details</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reprehenderit, ratione rerum neque non ipsa, molestias distinctio voluptatum autem at placeat nisi, minima optio nobis error earum. Ducimus asperiores libero optio a, facilis quasi in aut laborum. Labore incidunt nemo, cupiditate reprehenderit dolorum consectetur ad perferendis? Odit harum est voluptates!</span>
+        </div>
+    </div>
+</section>
 </body>
+<!---close product--->
+<!---Footer--->
 <footer>
     <div class="about-us">
         <h2>Sobre Nos</h2>
