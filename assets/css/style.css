@@ -228,6 +228,39 @@ footer ul{
     left: 880px;
 }
 
+.logo-mb{
+    width: 155px;
+    height:60px;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+
+.logo-skrill{
+    width: 150px;
+    height:51px;
+    position: absolute;
+    top:120px;
+    left:35px;
+}
+
+.logo-revolut{
+    width:180px;
+    height:42px;
+    margin-left: 60px;
+    position: absolute;
+    top:125px;
+    left:150px;
+}
+
+.logo-paypal{
+    width: 180px;
+    height:55px;
+    position: absolute;
+    top:50px;
+    left:210px;
+}
+
 .logo-info-mb{
     width: 200px;
     height:60px;
@@ -436,5 +469,6 @@ ul{
 .cart:hover{
     color: #fc8318;
 }
+
 
 
