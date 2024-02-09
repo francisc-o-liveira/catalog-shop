@@ -280,11 +280,11 @@ footer ul{
 }
 
 .logo-info-revolut{
-    width: 135px;
-    height:90px;
+    width: 150px;
+    height:60px;
     margin-left: 60px;
     position: absolute;
-    top:470px;
+    top:485px;
 }
 
 .logo-info-paypal{
@@ -468,6 +468,21 @@ ul{
 
 .cart:hover{
     color: #fc8318;
+}
+
+
+#tutorial{
+    position: relative;
+    width: 800px;
+    top: 30px;
+    left: 650px;
+}
+
+#button-see-more{
+    position: relative;
+    left: 670px;
+    top:30px;
+    width: 100px;
 }
 
 
