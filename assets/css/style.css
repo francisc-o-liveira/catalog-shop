@@ -280,11 +280,12 @@ footer ul{
 }
 
 .logo-info-revolut{
-    width: 150px;
+    width: 170px;
     height:60px;
     margin-left: 60px;
     position: absolute;
     top:485px;
+    left: 725px;
 }
 
 .logo-info-paypal{
