@@ -1,5 +1,50 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Vilane Bold;
+    src: url("/assets/font/Vilane Bold.ttf");
+}
+
+@font-face {
+    font-family: Vilane Extra Light;
+    src: url("/assets/font/Vilane Extra Light.ttf");
+}
+
+@font-face {
+    font-family: Vilane Light;
+    src: url("/assets/font/Vilane Light.ttf");
+}
+
+@font-face {
+    font-family: Vilane Medium;
+    src: url("/assets/font/Vilane Medium.ttf");
+}
+
+@font-face {
+    font-family: Vilane Regular;
+    src: url("/assets/font/Vilane Regular.ttf");
+}
+
+@font-face {
+    font-family: Vilane Semi Bold;
+    src: url("/assets/font/Vilane Semi Bold.ttf");
+}
+
+@font-face {
+    font-family: Vilane Thin;
+    src: url("/assets/font/Vilane Thin.ttf");
+}
+
+@font-face{
+    font-family: Anton;
+    src: url("/assets/font/Anton-Regular.ttf");
+}
+
+@font-face{
+    font-family: Protest;
+    src: url("/assets/font/ProtestGuerrilla-Regular.ttf");
+}
+
 #about{
     padding: 10px 10px;
     width: 1000px ;
@@ -11,15 +56,15 @@
 }
 
 .title-about{
-    font-family:"", sans-serif ;
-    font-size: 30px;
+    font-family:"Vilane Bold", sans-serif ;
+    font-size: 25px;
 
 }
 
 .p-about{
     padding: 10px 10px;
     position: absolute;
-    font-family:"", sans-serif ;
+    font-family:"Vilane Regular", sans-serif ;
     font-size: 18px;
     width: 750px;
     left: 150px;
@@ -34,19 +79,21 @@
 #certifications{
     text-align: center;
     position: relative;
+    top: 80px;
     left: 30px;
 }
 
 #certifications h2{
-    font-family: "", sans-serif;
+    font-family: "Vilane Bold", sans-serif;
     font-size: 30px;
 }
 
 #about-marcas{
     position: relative;
     text-align: center;
+    top:120px;
     left: 30px;
-    font-family: "", sans-serif;
+    font-family: "Vilane Bold", sans-serif;
     font-size: 25px;
 }
 
