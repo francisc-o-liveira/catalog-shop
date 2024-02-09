@@ -285,7 +285,7 @@ footer ul{
 .logo-info-skrill{
     width: 150px;
     height:51px;
-    margin-left: 75px;
+    margin-left:60px;
 }
 
 .logo-info-revolut{
@@ -293,14 +293,14 @@ footer ul{
     height:42px;
     margin-left: 60px;
     position: absolute;
-    top:485px;
+    top:497px;
     left: 725px;
 }
 
 .logo-info-paypal{
-    width: 180px;
+    width: 200px;
     height:55px;
-    margin-left:250px;
+    margin-left:300px;
 }
 .title{
     text-align:center;
