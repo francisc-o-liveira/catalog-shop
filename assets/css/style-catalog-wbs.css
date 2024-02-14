@@ -1,0 +1,406 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Vilane Bold;
+    src: url("/assets/font/Vilane Bold.ttf");
+}
+
+@font-face {
+    font-family: Vilane Extra Light;
+    src: url("/assets/font/Vilane Extra Light.ttf");
+}
+
+@font-face {
+    font-family: Vilane Light;
+    src: url("/assets/font/Vilane Light.ttf");
+}
+
+@font-face {
+    font-family: Vilane Medium;
+    src: url("/assets/font/Vilane Medium.ttf");
+}
+
+@font-face {
+    font-family: Vilane Regular;
+    src: url("/assets/font/Vilane Regular.ttf");
+}
+
+@font-face {
+    font-family: Vilane Semi Bold;
+    src: url("/assets/font/Vilane Semi Bold.ttf");
+}
+
+@font-face {
+    font-family: Vilane Thin;
+    src: url("/assets/font/Vilane Thin.ttf");
+}
+
+@font-face{
+    font-family: Anton;
+    src: url("/assets/font/Anton-Regular.ttf");
+}
+
+@font-face{
+    font-family: Protest;
+    src: url("/assets/font/ProtestGuerrilla-Regular.ttf");
+}
+
+@font-face {
+    font-family: Hijrnotes;
+    src: url("/assets/font/Hijrnotes.ttf");
+}
+
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background:white;
+    background-size: cover;
+    font-family: "Arial", sans-serif;
+    color: black;
+}
+
+head{
+    width:100%;
+    height: 100%;
+    padding: 60px;
+    text-align: left;
+    background: #ffffff;
+    color: black;
+    font-size: 30px;
+    top: 1px;
+}
+
+.menu{
+    width:10%;
+    height: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    bottom: 1000px;
+    background: #ffffff;
+}
+
+.header-list{
+    width: 900px;
+    bottom: 2000px;
+    margin-left: 370px;
+    position: absolute;
+    top: 40px;
+    font-family:"Vilane Bold", Arial, Helvetica, sans-serif;
+}
+
+.links{
+    margin-left: 50px;
+}
+
+a:link{color:black; text-decoration: none;}
+a:visited{color:black; text-decoration: none;}
+a:hover{color:orange; text-decoration: underline; transition:0.6s;  }
+a:active{color:black; text-decoration: none;}
+
+footer {
+    position: relative;
+    padding: 1px;
+    background: #ffffff;
+    display: block;
+    color: black;
+    height: 500px;
+    bottom: -20px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+footer h2{
+    font-size: 16px;
+    font-family: "Vilane Bold" , sans-serif;
+}
+
+footer h4{
+    font-size: 13px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+footer ul{
+    font-size: 13px;
+    font-family: "Vilane Regular", sans-serif;
+    list-style: none;
+    text-align:left;
+}
+
+.separation-line{
+    width:91%;
+    height:1px;
+    border-bottom: 1px solid #717070;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.about-us{
+    position: absolute;
+    display: block;
+    left: 70px;
+    top: 5px;
+    text-align: left;
+    width: 650px;
+    height: 220px;
+}
+
+.list-contactos{
+    position: absolute;
+    display: block;
+    left: 790px;
+    text-align: left;
+    width: 200px;
+    height: 220px;
+    top: 5px;
+}
+
+.terms-title{
+    margin-right: 900px ;
+}
+
+.terms-cont{
+    position: absolute;
+    left: -40px;
+    width: 300px;
+    top: 25px;
+}
+
+.list-footer-terms{
+    position: absolute;
+    display: block;
+    width: 220px;
+    height: 190px;
+    left: 1050px;
+    top: 5px;
+}
+
+.social-links{
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 75px;
+    top: 350px;
+    left: 70px;
+}
+
+.logo-mb{
+    width: 155px;
+    height:60px;
+    position: absolute;
+    top: -50px;
+    left: 520px;
+}
+
+.logo-skrill{
+    width: 150px;
+    height:51px;
+    position: absolute;
+    top:-50px;
+    left:970px;
+}
+
+.logo-revolut{
+    width:180px;
+    height:42px;
+    margin-left: 60px;
+    position: absolute;
+    top:-43px;
+    left:1100px;
+}
+
+.logo-paypal{
+    width: 200px;
+    height:55px;
+    position: absolute;
+    top:-50px;
+    left:720px;
+}
+
+.copyright{
+    text-align: center;
+    font-family: "Vilane Regular";
+    position: absolute;
+    top: 450px;
+    left:650px;
+}
+
+.separation-line-products{
+    width:70%;
+    height:1px;
+    background-color: rgba(68,68,68,0.4);
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.filter-title{
+    width:200px;
+    height: 50px;
+    border-color: rgba(68,68,68,0.4);
+    border-style: solid none;
+    border-width: thin;
+    position: absolute;
+    top: 230px;
+    left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.filter-products{
+    width:200px;
+    height: 300px;
+    border-color: rgba(68,68,68,0.4);
+    border-style: solid none;
+    border-width: thin;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+.filter-t{
+    font-family:"Vilane Regular", sans-serif;
+}
+
+.filter-checkbox{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+.check1{
+    position: absolute;
+    top: 15px;
+    left:5px;
+}
+
+.check2{
+    position: absolute;
+    top: 40px;
+    left:5px;
+}
+
+.filter-checkbox2{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+.check3{
+    position: absolute;
+    top: 65px;
+    left:5px;
+}
+
+.filter-checkbox3{
+    position: absolute;
+    top: 65px;
+    left: 30px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+.check4{
+    position: absolute;
+    top: 90px;
+    left:5px;
+}
+
+.filter-checkbox4{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+.check5{
+    position: absolute;
+    top: 115px;
+    left:5px;
+}
+
+.filter-checkbox5{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+.product1{
+    width: 300px;
+    height: 450px;
+    position:relative;
+    left: 410px;
+    top: 120px;
+    border-radius: 10px;
+}
+.product2{
+    width: 300px;
+    height: 450px;
+    position:relative;
+    top:-333px;
+    left: 750px;
+    border-radius: 10px;
+}
+
+.product3{
+    width: 300px;
+    height: 450px;
+    position:relative;
+    top:-784px;
+    left: 1090px;
+    border-radius: 10px;
+}
+
+.name-product{
+    position:absolute;
+    top: 270px;
+    left:45px;
+    text-align: center;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+.img--product{
+    width: 280px;
+    height: 250px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+
+.price-product{
+    position:absolute;
+    top:350px;
+    left:125px;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+.brand-product{
+    position: absolute;
+    top: 300px;
+    left:120px;
+    text-align: center;
+    font-family: "Vilane Regular", sans-serif;
+}
+
+.product1:hover {
+    box-shadow: 0 0 5px dimgrey;
+    transition: 0.6s;
+}
+
+.product2:hover {
+    box-shadow: 0 0 5px dimgrey;
+    transition: 0.6s;
+}
+
+.product3:hover {
+    box-shadow: 0 0 5px dimgrey;
+    transition: 0.6s;
+}
+
+
