@@ -50,10 +50,10 @@
     src: url("/assets/font/Hijrnotes.ttf");
 }
 
-html body{
+/*html body{
     max-width: 100%;
     overflow-x: hidden;
-}
+}*/
 
 body{
     background:white;
@@ -111,27 +111,70 @@ head{
 .button{
     position:relative;
     top: -60px;
-    left: 1080px;
-    width: 100px;
+    left: 1400px;
+    width: 40px;
     height: 30px;
     cursor: pointer;
     display: none;
 }
 
 #list{
-    background-color: #1abc9c;
+    background-color: #ffffff;
     position: absolute;
-    top:150px;
-    left: 700px;
-    width:110px;
-    height:100px;
+    top:105px;
+    left:48px;
+    width:1421px;
+    height:300px;
     text-align: center;
+    font-family: "Vilane Regular", Arial, sans-serif;
     display:none;
 }
 
 .list-mobile{
+    text-align: center;
     display: none;
 }
+
+.list-mobile2{
+    position: absolute;
+    top: 50px;
+    left:680px;
+    text-align: center;
+    display: none;
+}
+
+.list-mobile3{
+    position: absolute;
+    top: 100px;
+    left:675px;
+    text-align: center;
+    display: none;
+}
+
+.list-mobile4{
+    position: absolute;
+    top: 150px;
+    left:635px;
+    text-align: center;
+    display: none;
+}
+
+.list-mobile5{
+    position: absolute;
+    top: 200px;
+    left:620px;
+    text-align: center;
+    display: none;
+}
+
+.list-mobile6{
+    position: absolute;
+    top: 250px;
+    left:680px;
+    text-align: center;
+    display: none;
+}
+
 
 a:link{color:black; text-decoration: none;}
 a:visited{color:black; text-decoration: none;}
@@ -139,7 +182,7 @@ a:hover{color:orange; text-decoration: underline; transition:0.6s;  }
 a:active{color:black; text-decoration: none;}
 
 @media screen and (max-width: 1200px), (height: 2400px){
-    .button{
+    .button, .button-close{
         display: block;
     }
     .header-list{
@@ -148,7 +191,7 @@ a:active{color:black; text-decoration: none;}
     #list{
         display: inline-block;
     }
-    .list-mobile{
+    .list-mobile, .list-mobile2, .list-mobile3, .list-mobile4, .list-mobile4, .list-mobile5, .list-mobile6{
         display:inline-block;
     }
 }
