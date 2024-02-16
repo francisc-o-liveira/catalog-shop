@@ -343,16 +343,15 @@ footer ul{
 .logo-info-revolut{
     width:180px;
     height:42px;
-    margin-left: 60px;
-    position: absolute;
-    top:497px;
-    left: 725px;
+    margin-left: 30px;
+    position: relative;
+
 }
 
 .logo-info-paypal{
     width: 200px;
     height:55px;
-    margin-left:300px;
+    margin-left:30px;
 }
 .title{
     text-align:center;
