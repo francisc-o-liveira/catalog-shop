@@ -561,9 +561,10 @@ ul{
 
 #tutorial{
     position: relative;
-    width: 800px;
+    width: 1200px;
     top: 30px;
     left: 650px;
+    align-content: center;
 }
 
 #button-see-more{
@@ -597,5 +598,13 @@ ul{
 }
 
 
-
-
+.tutorial-title{
+    position: relative;
+    right: 130px;
+}
+.tutorial-list{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    right: 600px;
+}
