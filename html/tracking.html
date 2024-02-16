@@ -2,29 +2,29 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="../favicon.png">
-    <link rel="stylesheet" type="text/css" href="../assets/css/tracking.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="../assets/boxicons/css/boxicons.min.css">
-    <title>Enigma - DHL - Track</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <!--<script type="text/javascript" src="/assets/javascript/script.js"></script>-->
+    <title>Enigma</title>
     <div class="menu">
-        <img src="../assets/img/img/logo.png" alt="" class="logo">
-        <img src="../assets/img/img/logo.png" alt="" class="button">
-        <p class="list">
-            <a href="../index.html" target="menu">Home</a>
-            <a href="catalog.html" target="menu">Produtos</a>
-            <a href="about.html" target="menu">Sobre Nós</a>
-            <a href="404.html" target="menu">Localizar Encomenda</a>
-            <a href="info.html" target="menu">Encomendar/Informações</a>
-            <a href="404.html" target="_blank"><i class="bx bx-cart"></i></a>
-        </p>
+        <img src="/assets/img/img/logo.png" alt="" class="logo">
+        <img src="/assets/img/img/menu.png" alt="" class="button" id="button">
+        <div id="list">
+            <p class="list-mobile"><a href="index.html" target="menu">Home</a></p>
+            <p class="list-mobile2"><a href="html/catalog.html" target="menu">Produtos</a></p>
+            <p class="list-mobile3"><a href="html/about.html" target="menu">Sobre Nós</a></p>
+            <p class="list-mobile4"><a href="html/tracking.html" target="menu">Localizar Encomenda</a></p>
+            <p class="list-mobile5"><a href="html/info.html" target="menu">Encomendar/Informações</a></p>
+            <!--<p class="list-mobile6"><a href="html/404.html" target="_blank"><i class="bx bx-cart"></i></a></p>-->
+        </div>
         <p class="header-list">
-            <a href="../index.html" target="menu" class="links">Home</a>
-            <a href="catalog.html" target="menu" class="links">Produtos</a>
-            <a href="about.html" target="menu" class="links">Sobre Nós</a>
-            <a href="404.html" target="menu" class="links">Localizar Encomenda</a>
-            <a href="info.html" target="menu" class="links">Encomendar/Informações</a>
-            <a href="404.html" target="_blank" class="cart"><i class="bx bx-cart"></i></a>
+            <a href="index.html" target="menu" class="links">Home</a>
+            <a href="html/catalog.html" target="menu" class="links">Produtos</a>
+            <a href="html/about.html" target="menu" class="links">Sobre Nós</a>
+            <a href="html/tracking.html" target="menu" class="links">Localizar Encomenda</a>
+            <a href="html/info.html" target="menu" class="links">Encomendar/Informações</a>
+            <a href="html/404.html" target="_blank" class="cart"><i class="bx bx-cart"></i></a>
         </p>
     </div>
 </head>
@@ -95,4 +95,25 @@
         <!---metodos de pagamento faltam aqui---->
     </div>
 </footer>
+<script>
+    const button=document.getElementById("button");
+    const list=document.getElementById("list");
+
+    button.addEventListener("click", function(){
+        if(list.style.display=="none"){
+            list.style.display="block";
+        }
+        else{
+            list.style.display="none";
+        }
+    });
+
+    window.addEventListener("resize", function(){
+        if(list.style.display=="block"){
+            list.style.display="none";
+        }
+    })
+
+
+</script>
 </html>
