@@ -50,10 +50,10 @@
     src: url("/assets/font/Hijrnotes.ttf");
 }
 
-/*html body{
+html body{
     max-width: 100%;
     overflow-x: hidden;
-}*/
+}
 
 body{
     background:white;
