@@ -192,6 +192,20 @@ a:active{color:black; text-decoration: none;}
     .list-mobile, .list-mobile2, .list-mobile3, .list-mobile4, .list-mobile4, .list-mobile5, .list-mobile6{
         display:inline-block;
     }
+
+
+    <!-- info section here -->
+
+    .tutorial-title{
+
+    }
+
+    .tutorial-list{
+
+    }
+
+
+
 }
 
 footer {
@@ -601,10 +615,14 @@ ul{
 .tutorial-title{
     position: relative;
     right: 130px;
+
 }
+
+
 .tutorial-list{
     position: relative;
     width: 1200px;
     height: 300px;
     right: 600px;
+
 }

@@ -45,6 +45,47 @@
     src: url("/assets/font/ProtestGuerrilla-Regular.ttf");
 }
 
+
+@media screen and (max-width: 1200px), (height: 2400px){
+    #about{
+
+    }
+
+    .title-about{
+        position: absolute;
+        top: 200px;
+        right: 200px;
+    }
+
+    .p-about{
+        float: ;
+    }
+
+    .logo-about{
+
+    }
+
+    #certifications{
+    margin-left: 300px;
+    }
+    #certifications h2{
+
+    }
+    #about-marcas{
+        margin-left: 100px;
+    }
+
+    .brand-1{
+        position: absolute;
+        right: 200px;
+    }
+
+    .brand-2{
+        position: absolute;
+
+    }
+}
+
 #about{
     padding: 10px 10px;
     width: 1000px ;
@@ -58,7 +99,6 @@
 .title-about{
     font-family:"Vilane Bold", sans-serif ;
     font-size: 25px;
-
 }
 
 .p-about{
