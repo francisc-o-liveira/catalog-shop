@@ -2,10 +2,10 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style-catalog-wbs.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="../assets/boxicons/css/boxicons.min.css">
     <link rel="icon" type="image/x-icon" href="/favicon.png">
-    <!--<script type="text/javascript" src="/assets/javascript/script.js"></script>-->
     <title>Enigma</title>
     <div class="menu">
         <img src="/assets/img/img/logo.png" alt="" class="logo">
@@ -16,7 +16,7 @@
             <p class="list-mobile3"><a href="html/about.html" target="menu">Sobre Nós</a></p>
             <p class="list-mobile4"><a href="html/tracking.html" target="menu">Localizar Encomenda</a></p>
             <p class="list-mobile5"><a href="html/info.html" target="menu">Encomendar/Informações</a></p>
-            <!--<p class="list-mobile6"><a href="html/404.html" target="_blank"><i class="bx bx-cart"></i></a></p>-->
+            <p class="list-mobile6"><a href="html/404.html" target="_blank"><i class="bx bx-cart"></i></a></p>
         </div>
         <p class="header-list">
             <a href="index.html" target="menu" class="links">Home</a>
@@ -28,36 +28,35 @@
         </p>
     </div>
 </head>
-<body class="politics">
-<h2><span class="title">Informações sobre a Loja</span></h2>
-<p><span>Se procuras um artigo específico e não o encontras na nossa loja, não desistas!
-Basta enviares-nos uma mensagem privada com os detalhes do produto e uma fotografia do mesmo. A nossa equipa analisará a possibilidade de o obter com os nossos fornecedores, sempre ao melhor preço.</span></p>
-<p><span>Esforçamo-nos para oferecer a melhor seleção de acessórios, a fim desta ir de encontro aos teus desejos.</span></p>
-<p><span>Para cada produto, é indicado o stock existente para entrega imediata e o tamanho do mesmo. Mediante o stock, existem duas opções:</span></p>
-<ul>
-    <li>Entrega Imediata: o prazo de entrega varia entre 2 a 3 dias</li>
-    <li>Encomenda: o prazo de entrega varia entre 5 a 12 dias </li>
-</ul>
-<p><span>Os prazos de entrega são contabilizados após a confirmação do pagamento.</span></p>
-<p><span>Os portes de envio são gratuitos. Assim que a encomenda for entregue à transportadora DHL, o cliente receberá um email com o código de rastreio.</span></p>
-<p><span>Os métodos de pagamento aceites são:</span></p>
-<img src="../assets/img/payments/multibanco.png" class="logo-info-mb">
-<img src="../assets/img/payments/mbway.png" class="logo-info-mb-way">
-<img src="../assets/img/payments/skrill.png" class="logo-info-skrill">
-<img src="../assets/img/payments/revolut.png" class="logo-info-revolut">
-<img src="../assets/img/payments/paypal.png" class="logo-info-paypal">
+<body>
+<div class="product">
+    <div><img src="/assets/img/products/anel-blue-retangular-three-stone-sparkling-azul.png" class="slide-product"></div>
+    <div><img src="/assets/img/products/brincos-sparkling-statement-halo.png" class="slide-product"></div>
+    <div><img src="/assets/img/products/colar-sparkling-statement-halo.png" class="slide-product"></div>
+    <div><img src="/assets/img/products/pulseira-sparkling-pave.png" class="slide-product"></div>
+    <a class="previous" onclick="moveImgs(-1)">&#10094</a>
+    <a class="next" onclick="moveImgs(1)">&#10095</a>
+
+        <p class="product-name">Anel Pandora</p>
+        <p class="product-price">59,00€</p>
+        <img src="/assets/img/brands/Pandora.png" class="product-brand">
+    <div id="purchase-button">
+        <button class="purchase-opt">Comprar</button>
+    </div>
 
 
-
-<div id="tutorial">
-    <h2 class="tutorial-title">Como Encomendar:</h2>
-    <p class="tutorial-p"></p>
+<div style="text-align: center">
+    <a class="pagination-imgs1" onclick="currentImg(1)"></a>
+    <a class="pagination-imgs2" onclick="currentImg(2)"></a>
+    <a class="pagination-imgs3" onclick="currentImg(3)"></a>
+    <a class="pagination-imgs4" onclick="currentImg(4)"></a>
+</div>
 </div>
 </body>
 <div class="separation-line"></div>
 <footer>
     <div class="about-us">
-        <h2>Sobre Nos</h2>
+        <h2>Sobre Nós</h2>
         <p>Bem-vindo à nossa loja online! Somos uma equipa dedicada de entusiastas do comércio eletrónico, apaixonados por proporcionar a melhor experiência de compra online.
             Fundada em 2024, a nossa loja tem como objetivo oferecer produtos de alta qualidade a preços acessíveis.
             Trabalhamos diretamente com fabricantes e fornecedores para garantir que possamos passar as economias diretamente para você, nosso valioso cliente.
@@ -67,6 +66,18 @@ Basta enviares-nos uma mensagem privada com os detalhes do produto e uma fotogra
             Obrigado por escolher a nossa loja. Estamos ansiosos para atendê-lo!<br>
             A Equipa,<br></p>
         <p class="rubrica">Enigma</p>
+    </div>
+    <div class="list-footer-terms">
+        <div class="terms-title">
+            <h2>Informações</h2>
+        </div>
+        <div class="terms-cont">
+            <ul>
+                <li><a href="html/politic2.html" target="_blank">Termos e Condiçoes</a></li>
+                <li><a href="html/politic1.html" target="_blank">Politica de Privacidade</a></li>
+                <li><a href="html/info.html">Informações</a></li>
+            </ul>
+        </div>
     </div>
     <div class="list-contactos">
         <div class="contact-title">
@@ -81,51 +92,46 @@ Basta enviares-nos uma mensagem privada com os detalhes do produto e uma fotogra
             <p>+351 911 111 111</p>
         </div>
     </div>
-    <div class="list-footer-terms">
-        <div class="terms-title">
-            <h2>Informações</h2>
-        </div>
-        <div class="terms-cont">
-            <ul>
-                <li><a href="/html/politic2.html" target="_blank">Termos e Condiçoes</a></li>
-                <li><a href="/html/politic1.html" target="_blank">Politica de Privacidade</a></li>
-                <li><a href="/html/info.html">Informações</a></li>
-            </ul>
-        </div>
-    </div>
     <div class="social-links">
         <a href="" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="mailto:xxx@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
         <a href="" target="_blank" class="insta"><i class="bx bxl-whatsapp"></i></a>
+        <img src="/assets/img/payments/mb-footer.png" class="logo-mb">
+        <img src="/assets/img/payments/paypal.png" class="logo-paypal">
+        <img src="/assets/img/payments/skrill.png" class="logo-skrill">
+        <img src="/assets/img/payments/revolut.png" class="logo-revolut">
     </div>
-</footer>
+    <p class="copyright">© Copyright - ()</p>
+</footer>-->
 <script>
-    const showBtn = document.getElementById("button");
-    const targetButtons = document.getElementById("list");
-    const img = document.getElementById("cabecalho-img");
-    const button=document.getElementById("button");
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-    showBtn.addEventListener("click", function() {
-        if (targetButtons.style.display === "none") {
-            targetButtons.style.display = "block";
-            img.style.zIndex = "-5";
-            button.src="/assets/img/img/cross.png";
-            button.style.width="35px";
-            button.style.height="35px";
+    // Next/previous controls
+    function moveImgs(n) {
+        showSlides(slideIndex += n);
+    }
 
-        } else {
-            targetButtons.style.display = "none";
-            button.src="/assets/img/img/menu.png";
+    // Thumbnail image controls
+    function currentImg(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("slide-product");
+        let dots = document.getElementsByClassName("pagination-imgs");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
         }
-    });
-
-    window.addEventListener("resize", function() {
-        var sizeWindow = window.innerWidth;
-        if (sizeWindow > 1080 && targetButtons.style.display === "block") {
-            targetButtons.style.display = "none";
-            button.src="/assets/img/img/menu.png";
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
         }
-    });
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
 </script>
 </html>

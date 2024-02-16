@@ -50,10 +50,10 @@
     src: url("/assets/font/Hijrnotes.ttf");
 }
 
-html body{
+/*html body{
     max-width: 100%;
     overflow-x: hidden;
-}
+}*/
 
 body{
     background:white;
@@ -126,7 +126,8 @@ head{
     width:1421px;
     height:300px;
     text-align: center;
-    font-family: "Vilane Regular", Arial, sans-serif;
+    z-index: 2;
+    font-family: "Vilane Bold", Arial, sans-serif;
     display:none;
 }
 
@@ -182,14 +183,11 @@ a:hover{color:orange; text-decoration: underline; transition:0.6s;  }
 a:active{color:black; text-decoration: none;}
 
 @media screen and (max-width: 1200px), (height: 2400px){
-    .button, .button-close{
+    .button{
         display: block;
     }
     .header-list{
         display:none;
-    }
-    #list{
-        display: inline-block;
     }
     .list-mobile, .list-mobile2, .list-mobile3, .list-mobile4, .list-mobile4, .list-mobile5, .list-mobile6{
         display:inline-block;
