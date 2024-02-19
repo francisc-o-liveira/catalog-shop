@@ -100,7 +100,7 @@ a:hover{color:orange; text-decoration: underline; transition:0.6s;  }
 a:active{color:black; text-decoration: none;}
 
 footer {
-    position: relative;
+    position: absolute;
     padding: 1px;
     background: #ffffff;
     display: block;
@@ -405,9 +405,8 @@ footer ul{
 
 /* individual product */
 .product{
-    position:relative;
     width:100%;
-    height:100%;
+    height:1000px;
 }
 .product-image{
     position: relative;
@@ -417,8 +416,8 @@ footer ul{
 
 .slide-product{
     position: relative;
-    left:150px;
-    top:200px;
+    left:145px;
+    top:100px;
     width:400px;
     height:400px;
 }
@@ -443,7 +442,7 @@ footer ul{
     width: 10px;
     position: absolute;
     top:630px;
-    left:300px;
+    left:330px;
     background-color: #bbb;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -455,7 +454,7 @@ footer ul{
     width: 10px;
     position: absolute;
     top:630px;
-    left:320px;
+    left:350px;
     background-color: #bbb;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -467,7 +466,7 @@ footer ul{
     width: 10px;
     position: absolute;
     top:630px;
-    left:340px;
+    left:370px;
     background-color: #bbb;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -479,7 +478,7 @@ footer ul{
     width: 10px;
     position: absolute;
     top:630px;
-    left:360px;
+    left:390px;
     background-color: #bbb;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -497,9 +496,18 @@ footer ul{
     font-family: "Vilane Bold", Arial, sans-serif;
 }
 
+.product-ref{
+    position: absolute;
+    top: 240px;
+    left:650px;
+    font-size: 15px;
+    font-family: "Vilane Thin", Arial, sans-serif;
+    color: #a8a2a2;
+}
+
 .product-price{
     position: absolute;
-    top: 300px;
+    top: 270px;
     left:650px;
     font-size: 20px;
     font-family: "Vilane Regular", Arial, sans-serif;
@@ -515,8 +523,8 @@ footer ul{
 
 #purchase-button{
     position: relative;
-    left: 650px;
-    top:400px;
+    left: 1050px;
+    top:50px;
 }
 
 .purchase-opt{
@@ -534,4 +542,98 @@ footer ul{
     color:#fc8318;
     transition: 0.5s;
     box-shadow: 0 0 5px #fc8318;
+}
+
+.size-opt{
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    font-family: "Vilane Thin", sans-serif;
+}
+
+.size-box{
+    border-color:black;
+    width: 50px;
+    height: 30px;
+    font-family: "Vilane Regular", Arial, sans-serif;
+    background-color: #ffffff;
+    position:absolute;
+    top: 420px;
+    left: 650px;
+}
+
+.size-box2{
+    border-color:black;
+    width: 50px;
+    height: 30px;
+    font-family: "Vilane Regular", Arial, sans-serif;
+    background-color: #ffffff;
+    position:absolute;
+    top: 420px;
+    left: 710px;
+}
+
+.size-not-available{
+    border-color:dimgrey;
+    width: 50px;
+    height: 30px;
+    font-family: "Vilane Regular", Arial, sans-serif;
+    background-color: #ffffff;
+    position:absolute;
+    top: 420px;
+    left: 770px;
+    background: linear-gradient(to top left,
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0) calc(50% - 0.8px),
+    rgba(0,0,0,1) 50%,
+    rgba(0,0,0,0) calc(50% + 0.8px),
+    rgba(0,0,0,0) 100%),
+    linear-gradient(to top right,
+            rgba(0,0,0,0) 0%,
+            rgba(0,0,0,0) calc(50% - 0.8px),
+            rgba(0,0,0,1) 50%,
+            rgba(0,0,0,0) calc(50% + 0.8px),
+            rgba(0,0,0,0) 100%);
+    text-align: center;
+}
+
+.description{
+    width:80%;
+    height: 50px;
+    border-color: rgba(68,68,68,0.4);
+    border-style: solid none;
+    border-width: thin;
+    position: absolute;
+    top: 800px;
+    left: 150px;
+    padding-left: 15px;
+    font-family: "Vilane Regular", Helvetica, sans-serif;
+}
+
+.details{
+    width:80%;
+    height: 50px;
+    border-color: rgba(68,68,68,0.4);
+    border-style: solid none;
+    border-width: thin;
+    border-top: none;
+    position: absolute;
+    top: 850px;
+    left: 150px;
+    padding-left: 15px;
+    font-family: "Vilane Regular", Helvetica, sans-serif;
+}
+
+.delivery{
+    width:80%;
+    height: 50px;
+    border-color: rgba(68,68,68,0.4);
+    border-style: solid none;
+    border-width: thin;
+    border-top: none;
+    position: absolute;
+    top: 900px;
+    left: 150px;
+    padding-left: 15px;
+    font-family: "Vilane Regular", Helvetica, sans-serif;
 }
