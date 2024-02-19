@@ -637,3 +637,19 @@ footer ul{
     padding-left: 15px;
     font-family: "Vilane Regular", Helvetica, sans-serif;
 }
+
+.plus-sign{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 1170px;
+    cursor: pointer;
+}
+
+.descricao{
+    border: none;
+    display: none;
+    width: 80%;
+    height: 50px;
+}

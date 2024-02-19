@@ -50,12 +50,19 @@
     </div>
     <div class="description">
         <p class="descrip">Descrição do Produto: </p>
+        <img src="/assets/img/img/plus.png" class="plus-sign" id="ps1">
+        <p class="descricao">Eleve qualquer look com o Anel Blue Rectangular Three Stone Sparkling azul.
+            Com acabamento manual em prata 925, este anel apresenta três cristais rectangulares man-made azul princesa de corte radiante.
+            Uma fila de zircónias transparentes em pavé percorre o aro, conferindo ao anel um look delicado e sofisticado.
+            Use-o sozinho ou combine-o com outros estilos para criar uma afirmação elegante.</p>
     </div>
     <div class="details">
         <p class="descrip">Detalhes do Produto: </p>
+        <img src="/assets/img/img/plus.png" class="plus-sign">
     </div>
     <div class="delivery">
         <p class="descrip">Envios e Devolução: </p>
+        <img src="/assets/img/img/plus.png" class="plus-sign">
     </div>
 
 
@@ -148,5 +155,25 @@
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
     }
+
+    const showDescrip=document.getElementById("ps1");
+    const descrip=document.getElementsByClassName("descricao");
+    const details=document.getElementsByClassName("details");
+    const delivery=document.getElementsByClassName("delivery");
+
+    showDescrip.addEventListener("click", function(){
+       if(descrip.style.display==="none"){
+           descrip.style.display="block";
+           details.style.top="950px"
+           delivery.style.top="1000px"
+           img.src="/assets/img/img/cross.png";
+       }
+       else{
+           descrip.style.display="none";
+           details.style.top="850px"
+           delivery.style.top="900px"
+           img.src="/assets/img/img/plus.png"
+       }
+    });
 </script>
 </html>
