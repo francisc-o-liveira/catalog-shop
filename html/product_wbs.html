@@ -70,10 +70,10 @@
 
 
 <div style="text-align: center">
-    <a class="pagination-imgs1" onclick="currentImg(1)"></a>
-    <a class="pagination-imgs2" onclick="currentImg(2)"></a>
-    <a class="pagination-imgs3" onclick="currentImg(3)"></a>
-    <a class="pagination-imgs4" onclick="currentImg(4)"></a>
+    <span class="pagination-imgs" onclick="currentImg(1)"></span>
+    <span class="pagination-imgs" onclick="currentImg(2)"></span>
+    <span class="pagination-imgs" onclick="currentImg(3)"></span>
+    <span class="pagination-imgs" onclick="currentImg(4)"></span>
 </div>
 </div>
 </body>
@@ -145,7 +145,7 @@
     function showSlides(n) {
         let i;
         let slides = document.getElementsByClassName("slide-product");
-        let dots = document.getElementsByClassName("pagination-imgs");
+        let dots = document.getElementsByClassName("pagination-imgs"); // Correção aqui
         if (n > slides.length) {slideIndex = 1}
         if (n < 1) {slideIndex = slides.length}
         for (i = 0; i < slides.length; i++) {

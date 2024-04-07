@@ -302,8 +302,6 @@ footer ul{
     background-color: #5e5e5e; /* Cor do quadrado */
 }
 
-/*check3:top,left,65,5*/
-/*check4:top,left,90,5*/
 .check2 {
     position: absolute;
     top: 39px;
@@ -552,60 +550,40 @@ footer ul{
     left:520px;
     top:380px;
 }
-
-.pagination-imgs1{
+.pagination-imgs{
     cursor: pointer;
     height: 10px;
     width: 10px;
     position: absolute;
     top:630px;
-    left:330px;
     background-color: #bbb;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 
-.pagination-imgs2{
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    top:630px;
-    left:350px;
-    background-color: #bbb;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+.pagination-imgs:nth-child(1) {
+    left: 330px;
 }
 
-.pagination-imgs3{
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    top:630px;
-    left:370px;
-    background-color: #bbb;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+.pagination-imgs:nth-child(2) {
+    left: 350px;
 }
 
-.pagination-imgs4{
-    cursor: pointer;
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    top:630px;
-    left:390px;
-    background-color: #bbb;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+.pagination-imgs:nth-child(3) {
+    left: 370px;
 }
 
-.pagination-imgs1:hover, .pagination-imgs2:hover, .pagination-imgs3:hover, .pagination-imgs4:hover  {
+.pagination-imgs:nth-child(4) {
+    left: 390px;
+}
+
+
+
+.pagination-imgs:hover{
     background-color: #4f4f4f;
 }
 
-.pagination-imgs1:active, .pagination-imgs2:active, .pagination-imgs3:active, .pagination-imgs4:active  {
+.active{
     background-color: #4f4f4f;
 }
 
