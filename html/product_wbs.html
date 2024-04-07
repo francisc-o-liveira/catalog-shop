@@ -40,7 +40,7 @@
         <p class="product-name">Anel Pandora</p>
         <p class="product-ref">REF: 123456789</p>
         <p class="product-price">59,00€</p>
-        <img src="/assets/img/brands/Pandora.png" class="product-brand">
+        <a href="html/catalog_pandora.html"><img src="/assets/img/brands/Pandora.png" class="product-brand"></a>
         <p class="size-opt">Selecione o tamanho:</p>
         <button class="size-box">40</button>
         <button class="size-box2">48</button>
@@ -48,21 +48,23 @@
     <div id="purchase-button">
         <button class="purchase-opt">Comprar</button>
     </div>
-    <div class="description">
+    <div class="description" id="description">
         <p class="descrip">Descrição do Produto: </p>
-        <img src="/assets/img/img/plus.png" class="plus-sign" id="ps1">
-        <p class="descricao">Eleve qualquer look com o Anel Blue Rectangular Three Stone Sparkling azul.
+        <img src="/assets/img/img/plus.png" id="plus-sign" onclick="showDescription()">
+        <div class="descricao" id="descricao"><p>Eleve qualquer look com o Anel Blue Rectangular Three Stone Sparkling azul.
             Com acabamento manual em prata 925, este anel apresenta três cristais rectangulares man-made azul princesa de corte radiante.
             Uma fila de zircónias transparentes em pavé percorre o aro, conferindo ao anel um look delicado e sofisticado.
-            Use-o sozinho ou combine-o com outros estilos para criar uma afirmação elegante.</p>
+            Use-o sozinho ou combine-o com outros estilos para criar uma afirmação elegante.</p></div>
     </div>
-    <div class="details">
+  <div class="details" id="details">
         <p class="descrip">Detalhes do Produto: </p>
-        <img src="/assets/img/img/plus.png" class="plus-sign">
+        <img src="/assets/img/img/plus.png" id="plus-sign1" onclick="showDetails()">
+         <div class="descricao" id="descricao1"><p>EEEE</p></div>
     </div>
-    <div class="delivery">
+    <div class="delivery" id="delivery">
         <p class="descrip">Envios e Devolução: </p>
-        <img src="/assets/img/img/plus.png" class="plus-sign">
+        <img src="/assets/img/img/plus.png" id="plus-sign2" onclick="showDelivery()">
+         <div class="descricao" id="descricao2"> <p>LLLL</p></div>
     </div>
 
 
@@ -125,7 +127,7 @@
         <img src="/assets/img/payments/revolut.png" class="logo-revolut">
     </div>
     <p class="copyright">© Copyright - ()</p>
-</footer>-->
+</footer>
 <script>
     let slideIndex = 1;
     showSlides(slideIndex);
@@ -153,27 +155,113 @@
             dots[i].className = dots[i].className.replace(" active", "");
         }
         slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
+        if (slideIndex <= dots.length) {
+            dots[slideIndex-1].className += " active";
+        }
+    }
+</script>
+<script>
+    const showBtn = document.getElementById("button");
+    const targetButtons = document.getElementById("list");
+    const img = document.getElementById("cabecalho-img");
+    const button=document.getElementById("button");
+
+    showBtn.addEventListener("click", function() {
+        if (targetButtons.style.display === "none") {
+            targetButtons.style.display = "block";
+            img.style.zIndex = "-5";
+            button.src="/assets/img/img/cross.png";
+            button.style.width="35px";
+            button.style.height="35px";
+
+        } else {
+            targetButtons.style.display = "none";
+            button.src="/assets/img/img/menu.png";
+        }
+    });
+
+    window.addEventListener("resize", function() {
+        var sizeWindow = window.innerWidth;
+        if (sizeWindow > 1080 && targetButtons.style.display === "block") {
+            targetButtons.style.display = "none";
+            button.src="/assets/img/img/menu.png";
+        }
+    });
+</script>
+<script>
+    function showDescription() {
+        const descricao = document.getElementById("descricao");
+        const description=document.getElementById("description");
+        const imgPlus=document.getElementById("plus-sign");
+        const details=document.getElementById("details");
+        const delivery=document.getElementById("delivery");
+
+        if (descricao.style.display === "none") {
+            descricao.style.display = "block";
+            description.style.height="200px";
+            imgPlus.src="/assets/img/img/cross.png";
+            imgPlus.style.width="30px";
+            imgPlus.style.height="30px";
+            details.style.top="950px";
+            delivery.style.top="1000px";
+        } else {
+            descricao.style.display = "none";
+            description.style.height="50px";
+            imgPlus.src="/assets/img/img/plus.png";
+            imgPlus.style.width="20px";
+            imgPlus.style.height="20px";
+            details.style.top="850px";
+            delivery.style.top="900px";
+
+        }
     }
 
-    const showDescrip=document.getElementById("ps1");
-    const descrip=document.getElementsByClassName("descricao");
-    const details=document.getElementsByClassName("details");
-    const delivery=document.getElementsByClassName("delivery");
+    function showDetails() {
+        const descricao = document.getElementById("descricao1");
+        const description=document.getElementById("description");
+        const imgPlus=document.getElementById("plus-sign1");
+        const details=document.getElementById("details");
+        const delivery=document.getElementById("delivery");
 
-    showDescrip.addEventListener("click", function(){
-       if(descrip.style.display==="none"){
-           descrip.style.display="block";
-           details.style.top="950px"
-           delivery.style.top="1000px"
-           img.src="/assets/img/img/cross.png";
-       }
-       else{
-           descrip.style.display="none";
-           details.style.top="850px"
-           delivery.style.top="900px"
-           img.src="/assets/img/img/plus.png"
-       }
-    });
+        if (descricao.style.display === "none") {
+            descricao.style.display = "block";
+            details.style.height="200px";
+            imgPlus.src="/assets/img/img/cross.png";
+            imgPlus.style.width="30px";
+            imgPlus.style.height="30px";
+            delivery.style.top="1000px";
+        } else {
+            descricao.style.display = "none";
+            details.style.height="50px";
+            imgPlus.src="/assets/img/img/plus.png";
+            imgPlus.style.width="20px";
+            imgPlus.style.height="20px";
+            delivery.style.top="900px";
+
+        }
+    }
+
+    function showDelivery() {
+        const descricao = document.getElementById("descricao2");
+        const description=document.getElementById("description");
+        const imgPlus=document.getElementById("plus-sign2");
+        const details=document.getElementById("details");
+        const delivery=document.getElementById("delivery");
+
+        if (descricao.style.display === "none") {
+            descricao.style.display = "block";
+            delivery.style.height="200px";
+            imgPlus.src="/assets/img/img/cross.png";
+            imgPlus.style.width="30px";
+            imgPlus.style.height="30px";
+        } else {
+            descricao.style.display = "none";
+            delivery.style.height="50px";
+            imgPlus.src="/assets/img/img/plus.png";
+            imgPlus.style.width="20px";
+            imgPlus.style.height="20px";
+
+        }
+    }
 </script>
 </html>

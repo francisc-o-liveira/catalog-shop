@@ -273,16 +273,64 @@ footer ul{
     font-family: "Vilane Regular", sans-serif;
 }
 
-.check1{
+.check1 {
     position: absolute;
-    top: 15px;
-    left:5px;
+    top: 14px;
+    left: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 14px; /* Tamanho do checkbox */
+    height: 14px; /* Tamanho do checkbox */
+    border: solid #7c7979; /* Cor da borda */
+    border-width: thin;
+    border-radius: 0; /* Borda do checkbox */
+    outline: none;
 }
 
-.check2{
+.check1:checked {
+    background-color: #ffffff; /* Cor de fundo quando checked */
+}
+
+.check1:checked:after {
+    content: '';
     position: absolute;
-    top: 40px;
-    left:5px;
+    top:2px;
+    left:2px;
+    width: 8px; /* Tamanho do quadrado */
+    height: 8px; /* Tamanho do quadrado */
+    background-color: #5e5e5e; /* Cor do quadrado */
+}
+
+/*check3:top,left,65,5*/
+/*check4:top,left,90,5*/
+.check2 {
+    position: absolute;
+    top: 39px;
+    left: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 14px; /* Tamanho do checkbox */
+    height: 14px; /* Tamanho do checkbox */
+    border: solid #7c7979; /* Cor da borda */
+    border-width: thin;
+    border-radius: 0; /* Borda do checkbox */
+    outline: none;
+}
+
+.check2:checked {
+    background-color: #ffffff; /* Cor de fundo quando checked */
+}
+
+.check2:checked:after {
+    content: '';
+    position: absolute;
+    top:2px;
+    left:2px;
+    width: 8px; /* Tamanho do quadrado */
+    height: 8px; /* Tamanho do quadrado */
+    background-color: #5e5e5e; /* Cor do quadrado */
 }
 
 .filter-checkbox2{
@@ -292,10 +340,33 @@ footer ul{
     font-family: "Vilane Regular", sans-serif;
 }
 
-.check3{
+.check3 {
     position: absolute;
-    top: 65px;
-    left:5px;
+    top: 64px;
+    left: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 14px; /* Tamanho do checkbox */
+    height: 14px; /* Tamanho do checkbox */
+    border: solid #7c7979; /* Cor da borda */
+    border-width: thin;
+    border-radius: 0; /* Borda do checkbox */
+    outline: none;
+}
+
+.check3:checked {
+    background-color: #ffffff; /* Cor de fundo quando checked */
+}
+
+.check3:checked:after {
+    content: '';
+    position: absolute;
+    top:2px;
+    left:2px;
+    width: 8px; /* Tamanho do quadrado */
+    height: 8px; /* Tamanho do quadrado */
+    background-color: #5e5e5e; /* Cor do quadrado */
 }
 
 .filter-checkbox3{
@@ -305,10 +376,33 @@ footer ul{
     font-family: "Vilane Regular", sans-serif;
 }
 
-.check4{
+.check4 {
     position: absolute;
-    top: 90px;
-    left:5px;
+    top: 89px;
+    left: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 14px; /* Tamanho do checkbox */
+    height: 14px; /* Tamanho do checkbox */
+    border: solid #7c7979; /* Cor da borda */
+    border-width: thin;
+    border-radius: 0; /* Borda do checkbox */
+    outline: none;
+}
+
+.check4:checked {
+    background-color: #ffffff; /* Cor de fundo quando checked */
+}
+
+.check4:checked:after {
+    content: '';
+    position: absolute;
+    top:2px;
+    left:2px;
+    width: 8px; /* Tamanho do quadrado */
+    height: 8px; /* Tamanho do quadrado */
+    background-color: #5e5e5e; /* Cor do quadrado */
 }
 
 .filter-checkbox4{
@@ -318,10 +412,33 @@ footer ul{
     font-family: "Vilane Regular", sans-serif;
 }
 
-.check5{
+.check5 {
     position: absolute;
-    top: 115px;
-    left:5px;
+    top: 114px;
+    left: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 14px; /* Tamanho do checkbox */
+    height: 14px; /* Tamanho do checkbox */
+    border: solid #7c7979; /* Cor da borda */
+    border-width: thin;
+    border-radius: 0; /* Borda do checkbox */
+    outline: none;
+}
+
+.check5:checked {
+    background-color: #ffffff; /* Cor de fundo quando checked */
+}
+
+.check5:checked:after {
+    content: '';
+    position: absolute;
+    top:2px;
+    left:2px;
+    width: 8px; /* Tamanho do quadrado */
+    height: 8px; /* Tamanho do quadrado */
+    background-color: #5e5e5e; /* Cor do quadrado */
 }
 
 .filter-checkbox5{
@@ -488,6 +605,11 @@ footer ul{
     background-color: #4f4f4f;
 }
 
+.pagination-imgs1:active, .pagination-imgs2:active, .pagination-imgs3:active, .pagination-imgs4:active  {
+    background-color: #4f4f4f;
+}
+
+
 .product-name{
     position: absolute;
     top: 190px;
@@ -638,7 +760,23 @@ footer ul{
     font-family: "Vilane Regular", Helvetica, sans-serif;
 }
 
-.plus-sign{
+#plus-sign{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 1170px;
+    cursor: pointer;
+}
+#plus-sign1{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 1170px;
+    cursor: pointer;
+}
+#plus-sign2{
     position:absolute;
     width: 20px;
     height: 20px;
@@ -652,4 +790,6 @@ footer ul{
     display: none;
     width: 80%;
     height: 50px;
+    color: black;
+    font-family: "Vilane Regular", Helvetica, sans-serif;
 }
